@@ -1,0 +1,58 @@
+body{
+    background-image: image(background-image);
+}
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    width: 460px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+.title2{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    font-weight: 300;
+    width: 150px;
+}
+.til{
+    width: 130px;
+}
+td{
+    border: 1px solid black;
+    width: 300px;
+    height: 23px;
+}
+.input2{
+    width: 252px;
+}
+input{
+    width: 456px;
+    height: 23px;
+    border: none;
+}
+.table2{
+    margin-top: 20px;
+}
+.des{
+    height: 50px;
+}
+textarea{
+    resize: none;
+    border: none;
+}
+.cuadroz{
+    width: 310px;
+}
+button{
+    border-color: lightsteelblue;
+    border-radius: 15px;
+    background-color: rgb(189, 189, 189);
+    height: 30px;
+    width: 130px;
+    margin: 15px;
+}

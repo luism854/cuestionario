@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Aprendizaje</title>
+    <link rel="stylesheet" href="css/ficha.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="title cuadroz"><b>Registro del formato de ficha técnica</b></td>
+            <td class="title"><b>Responsable (coordinador encargado)</b></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="title2"><b>CARACTERISTICAS DEL PRODUCTO</b></td>
+        </tr>
+        <tr>
+            <td><b>Nombre del producto: </b></td>
+            <td><input type="text" maxlength="50" name="nombrepro" id="" placeholder="Nombre con el que sera identificado el producto."></td>
+        </tr>
+        <tr>
+            <td><b>Linea de producción: </b></td>
+            <td><input type="text"  maxlength="50" name="lineapro" id="" placeholder="A que sistema, entidad, grupo o linea pertenece."></td>
+        </tr>
+        <tr>
+            <td><b>Versiones anteriores: </b></td>
+            <td><input type="text"  maxlength="50" name="versiones" id="" placeholder="Numero y nombre del ultimo desarrollo del producto."></td>
+        </tr>
+        <tr>
+            <td><b>Version actual: </b></td>
+            <td><input type="text"  maxlength="50" name="versionac" id="" placeholder="Numero con el que se identificara el nuevo producto."></td>
+        </tr>
+        <tr>
+            <td><b>Modulo: </b></td>
+            <td><input type="text"  maxlength="50" name="modulo" id="" placeholder="Nombre tecnico o sistemico del producto."></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="title2" colspan="2"><b>DESCRIPCION DEL PRODUCTO</b></td>
+        </tr>
+        <tr>
+            <td><b>Descripcion general del producto: </b></td>
+            <td><input type="text"  maxlength="50" name="descripcion" id="" placeholder="Descripcion breve del nombre del producto (Generales)"></td>
+        </tr>
+        <tr>
+            <td><b>Objetivo del producto: </b></td>
+            <td><input type="text"  maxlength="50" name="objetivo" id="" placeholder="Funcionalidad general del aplicativo, describiendo su alcance."></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="title2" colspan="2"><b>ARQUITECTURA</b></td>
+        </tr>
+        <tr>
+            <td class="des"><b>Descripcion:</b> </td>
+            <td><textarea name="descrip" id="" cols="60" rows="5" placeholder="Explica el tipo de arquitectura de desarrollo del aplicativo, describiendo el ambiente en el cual se ejecutara la aplicacion (Movil, Escritorio, Web)."></textarea></td>
+        </tr>
+        <tr>
+            <td class="title2" colspan="2"><b>REQUERIMIENTOS DEL PRODUCTO</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Requisitos del sistema (Servidor)</td>
+        </tr>
+        <tr>
+            <td><b>HARDWARE</b></td>
+            <td><input type="text"  maxlength="50" name="hardware" id="" placeholder="Se describen los elementos fisicos minimos que debe tener el equipo."></td>
+        </tr>
+        <tr>
+            <td><b>SOFTWARE</b></td>
+            <td><input type="text"  maxlength="50" name="software" id="" placeholder="Se describen los requerimientos logicos para la ejecucion del aplicativo."></td>
+        </tr>
+        <tr>
+            <td><b>Otros</b></td>
+            <td><input type="text"  maxlength="50" name="otros" id="" placeholder="Recomendaciones para que el aplicativo funcione mejor."></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Requisitos del sistema (Cliente)</td>
+        </tr>
+        <tr>
+            <td><b>HARDWARE</b></td>
+            <td><input type="text"  maxlength="50" name="hardware2" id="" placeholder="Se describen los elementos fisicos minimos que debe tener el equipo."></td>
+        </tr>
+        <tr>
+            <td><b>SOFTWARE</b></td>
+            <td><input type="text"  maxlength="50" name="software2" id="" placeholder="Se describen los requerimientos logicos para la ejecucion del aplicativo."></td>
+        </tr>
+        <tr>
+            <td><b>Otros</b></td>
+            <td><input type="text"  maxlength="50" name="otros2" id="" placeholder="Recomendaciones para que el aplicativo funcione mejor."></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="title2" colspan="2"><b>REQUERIMIENTOS</b></td>
+        </tr>
+        <tr>
+            <td><b>REQUERIMIENTOS FUNCIONALES</b></td>
+            <td><input type="text"  maxlength="50" name="requerimientosfun" id="" placeholder="Definicion de funciones que el sistema realizara."></td>
+        </tr>
+        <tr>
+            <td><b>REQUERIMIENTOS NO FUNCIONALES</b></td>
+            <td><input type="text"  maxlength="50" name="requerimientosnofun" id="" placeholder="Funcionalidades adicionales para el correcto funcionamiento del sistema."></td>
+        </tr>
+        <tr>
+            <td><b>CLIENTES DEL PRODUCTO</b></td>
+            <td><input type="text"  maxlength="50" name="clientesprod" id="" placeholder="Caracteristicas del cliente o usuarios finales que puedan usar el producto."></td>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <td class="title2"><b>Elaboró</b></td>
+            <td class="title2"><b>Aprobó</b></td>
+            <td class="title2"><b>Validó</b></td>
+        </tr>
+        <tr>
+            <td class="til"><b>Firma</b><input type="text"  maxlength="33" name="firma" id="" class="input2"></td>
+            <td class="til"><b>Firma</b><input type="text" maxlength="33" name="firma" id="" class="input2"></td>
+            <td class="til"><b>Firma</b><input type="text" maxlength="33" name="firma" id="" class="input2"></td>
+        </tr>
+    </table>
+    <center><button>ENVIAR</button></center>
+</body>
+</html>
